@@ -25,44 +25,42 @@ public class MainView extends VerticalLayout implements View {
 
 	public MainView() {
 		/*
-		String basepath = VaadinService.getCurrent()
-                .getBaseDirectory().getAbsolutePath();
-		
-		FileResource resource = new FileResource(new File(basepath +
-                "/WEB-INF/images/welcome.png"));
-		
-		
-		Image image = new Image(null, resource);
-		
-		image.setWidth("20%");
-		image.setHeight("20%");*/
-		
+		 * String basepath = VaadinService.getCurrent()
+		 * .getBaseDirectory().getAbsolutePath();
+		 * 
+		 * FileResource resource = new FileResource(new File(basepath +
+		 * "/WEB-INF/images/welcome.png"));
+		 * 
+		 * 
+		 * Image image = new Image(null, resource);
+		 * 
+		 * image.setWidth("20%"); image.setHeight("20%");
+		 */
+
 		login = new Button("Login");
 
-		
 		login.addClickListener(new ClickListener() {
-		
-			public void buttonClick(ClickEvent event) 
-			{
+
+			public void buttonClick(ClickEvent event) {
 				getUI().getNavigator().navigateTo(LoginView.NAME);
+				System.out.println("Ayesha");
 			}
 		});
 		register = new Button("Register");
 
 		register.addClickListener(new ClickListener() {
-		
-			public void buttonClick(ClickEvent event) 
-			{
+
+			public void buttonClick(ClickEvent event) {
 				getUI().getNavigator().navigateTo(RegisterView.NAME);
 			}
 		});
 		register.setStyleName(ValoTheme.LAYOUT_COMPONENT_GROUP);
 		login.setStyleName("Login");
 		setSpacing(true);
-		//setSizeUndefined();
+		// setSizeUndefined();
 		setDefaultComponentAlignment(Alignment.MIDDLE_CENTER);
-	//	setStyleName("backColorGrey");
-		addComponents(login,register);
+		// setStyleName("backColorGrey");
+		addComponents(login, register);
 	}
 
 	@Override
