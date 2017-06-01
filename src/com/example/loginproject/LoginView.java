@@ -57,7 +57,6 @@ public class LoginView extends VerticalLayout implements View {
 				userName.addValidator(new Validator() {
 
 					public boolean isValid(Object value) {
-						System.out.println("Ayesha");
 						return usernames.contains(value);
 					}
 

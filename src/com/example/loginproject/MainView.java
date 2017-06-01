@@ -54,7 +54,6 @@ public class MainView extends VerticalLayout implements View {
 
 			public void buttonClick(ClickEvent event) {
 				getUI().getNavigator().navigateTo(LoginView.NAME);
-				System.out.println("Ayesha");
 			}
 		});
 		register = new Button("Register");

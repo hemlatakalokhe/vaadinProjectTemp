@@ -33,8 +33,6 @@ public class SuccessView extends VerticalLayout implements View {
 		DateField date=new DateField();
 		date.setValue(new Date());
 		date.setLocale(new Locale("es", "PE"));
-		
-		System.out.println("Ayesha");
 		grid.addRow(VaadinSession.getCurrent().getAttribute("userName"),date.getValue().toString());
 		grid.setSizeUndefined();
 		
