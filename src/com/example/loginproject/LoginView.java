@@ -30,6 +30,8 @@ public class LoginView extends VerticalLayout implements View {
 
 	public void enter1(ViewChangeEvent event) {
 	}
+	public void enter2(ViewChangeEvent event) {
+	}
 	
 	@Override
 	public void enter(ViewChangeEvent event) {
