@@ -43,6 +43,7 @@ public class RegisterView extends VerticalLayout implements View{
 				}
 				else
 				{
+					System.out.println("Ravi");
 					Notification.show("Invalid Password", Type.ERROR_MESSAGE);
 				}
 			}
