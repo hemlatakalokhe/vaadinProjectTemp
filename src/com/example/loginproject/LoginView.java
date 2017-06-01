@@ -42,6 +42,7 @@ public class LoginView extends VerticalLayout implements View {
 
 		submit.addClickListener(new ClickListener() {
 
+			
 			private static final long serialVersionUID = 1L;
 
 			public void buttonClick(ClickEvent event) {
