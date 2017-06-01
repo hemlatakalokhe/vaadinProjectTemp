@@ -28,11 +28,6 @@ public class LoginView extends VerticalLayout implements View {
 	private Label incorrect;
 	private Button submit;
 
-	public void enter1(ViewChangeEvent event) {
-	}
-	public void enter2(ViewChangeEvent event) {
-	}
-	
 	@Override
 	public void enter(ViewChangeEvent event) {
 		// FormLayout form=new FormLayout();
