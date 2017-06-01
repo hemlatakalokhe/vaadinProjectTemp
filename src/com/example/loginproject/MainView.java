@@ -23,21 +23,12 @@ public class MainView extends VerticalLayout implements View {
 	private Button login;
 	private Button register;
 
+	public void enter1(ViewChangeEvent event) {
+	}
+
 	public MainView() {
 		/*
-		String basepath = VaadinService.getCurrent()
-                .getBaseDirectory().getAbsolutePath();
-		
-		FileResource resource = new FileResource(new File(basepath +
-                "/WEB-INF/images/welcome.png"));
-		
-		
-		Image image = new Image(null, resource);
-		
-		image.setWidth("20%");
-		image.setHeight("20%");*/
-		System.out.println("In main view");
-		/* * String basepath = VaadinService.getCurrent()
+		 * String basepath = VaadinService.getCurrent()
 		 * .getBaseDirectory().getAbsolutePath();
 		 * 
 		 * FileResource resource = new FileResource(new File(basepath +
@@ -46,8 +37,21 @@ public class MainView extends VerticalLayout implements View {
 		 * 
 		 * Image image = new Image(null, resource);
 		 * 
-		  image.setWidth("20%"); image.setHeight("20%");
-*/
+		 * image.setWidth("20%"); image.setHeight("20%");
+		 */
+		System.out.println("In main view");
+		/*
+		 *  * String basepath = VaadinService.getCurrent()
+		 * .getBaseDirectory().getAbsolutePath();
+		 * 
+		 * FileResource resource = new FileResource(new File(basepath +
+		 * "/WEB-INF/images/welcome.png"));
+		 * 
+		 * 
+		 * Image image = new Image(null, resource);
+		 * 
+		 * image.setWidth("20%"); image.setHeight("20%");
+		 */
 		login = new Button("submit");
 
 		login.addClickListener(new ClickListener() {
