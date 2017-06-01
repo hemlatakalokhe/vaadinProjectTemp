@@ -27,6 +27,7 @@ public class RegisterView extends VerticalLayout implements View{
 	@Override
 	public void enter(ViewChangeEvent event) 
 	{
+		System.out.println("Hemlata");
 		form=new FormLayout();
 		userName=new TextField("User Name");
 		password=new PasswordField("Enter Password");
