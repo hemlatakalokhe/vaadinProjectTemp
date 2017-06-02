@@ -54,7 +54,7 @@ public class MainView extends VerticalLayout implements View {
 		
 		  image.setWidth("20%"); image.setHeight("20%"); */
 		System.out.println("login button");
-		login = new Button("submit");
+		login = new Button("Login");
 
 		login.addClickListener(new ClickListener() {
 

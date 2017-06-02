@@ -1,6 +1,6 @@
 package com.example.loginproject;
 
-import com.vaadin.testbench.ScreenshotOnFailureRule;
+/*import com.vaadin.testbench.ScreenshotOnFailureRule;
 import com.vaadin.testbench.TestBenchTestCase;
 import com.vaadin.testbench.elements.ButtonElement;
 import com.vaadin.testbench.elements.LabelElement;
@@ -15,7 +15,7 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 
-/**
+*//**
  * This class contains JUnit tests, which are run using Vaadin TestBench 4.
  *
  * To run this, first get an evaluation license from
@@ -23,7 +23,7 @@ import static org.junit.Assert.assertFalse;
  * https://vaadin.com/directory/help/installing-cval-license to install it.
  *
  * Once the license is installed, you can run this class as a JUnit test.
- */
+ *//*
 public class LoginprojectTest extends TestBenchTestCase {
     @Rule
     public ScreenshotOnFailureRule screenshotOnFailureRule =
@@ -49,9 +49,9 @@ public class LoginprojectTest extends TestBenchTestCase {
         //   setDriver(new PhantomJSDriver()); // PhantomJS headless browser
     }
 
-    /**
+    *//**
      * Opens the URL where the application is deployed.
-     */
+     *//*
     private void openTestUrl() {
         getDriver().get("http://localhost:8080/LoginProject");
     }
@@ -84,4 +84,4 @@ public class LoginprojectTest extends TestBenchTestCase {
         LabelElement lastLabel = allLabels.get(1);
         assertEquals("Thank you for clicking", lastLabel.getText());
     }
-}
+}*/
